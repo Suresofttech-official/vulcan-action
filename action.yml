@@ -1,6 +1,9 @@
 # action.yml
 name: 'vulcan-action'
 description: 'Auto fix on the branch which triggers a workflow'
+branding:
+  icon: 'cloud'
+  color: 'orange'
 inputs:
   token:
     description: 'GITHUB_TOKEN'
